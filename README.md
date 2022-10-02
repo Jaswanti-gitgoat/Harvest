@@ -46,9 +46,8 @@
 ## ⚙️ Setting up Kubernetes Goat
 
 * Ensure you have admin access to the Kubernetes cluster and installed `kubectl`. Refer to the [docs for installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-
 * Ensure you have the `helm` package manager installed. Refer to the [docs for installation](https://helm.sh/docs/intro/install)
-* To set up the Kubernetes Goat resources in your cluster, run the following commands:
+* To set up the Kubernetes Goat resources in your cluster, run the following commands
 
 ```bash
 git clone https://github.com/madhuakula/kubernetes-goat.git
@@ -64,7 +63,7 @@ kubectl get pods
 
 ![all pods running in kubectl get pods](guide/docs/scenarios/images/kubectl-get-pods.png)
 
-* Access Kubernetes Goat by exposing the resources to the local system (port-forward) by the following command:
+* Access the Kubernetes Goat by exposing the resources to the local system (port-forward) by the following command
 
 ```bash
 bash access-kubernetes-goat.sh
@@ -101,7 +100,7 @@ bash access-kubernetes-goat.sh
 
 ## 📖 Documentation Guide
 
-Here is the detailed step by step guide for learning and using Kubernetes Goat 🎉: [documentation guide] (https://madhuakula.com/kubernetes-goat)
+Here is the detailed step by step [documentation guide](https://madhuakula.com/kubernetes-goat) for learning and playing around with Kubernetes Goat 🎉
 
 [![Kubernetes Goat Documentation Guide](kubernetes-goat-docs.png)](https://madhuakula.com/kubernetes-goat)
 
@@ -109,9 +108,9 @@ Here is the detailed step by step guide for learning and using Kubernetes Goat �
 
 ## ⚠️ Disclaimer
 
-> Kubernetes Goat has intentionally created vulnerabilities, applications, and configurations to attack and gain access to your cluster and workloads. Please **DO NOT** run this alongside your production environments and infrastructure. We highly recommend running this in a safe and isolated (contained) environment.
+> Kubernetes Goat has intentionally created vulnerabilities, applications, and configurations to attack and gain access to your cluster and workloads. Please **DO NOT** run alongside your production environments and infrastructure. So we highly recommend running this in a safe and isolated environment.
 
-> Kubernetes Goat is used for educational purposes only. Do not test or apply these attacks on any systems without permission. Kubernetes Goat comes with absolutely no warranties, by using it you take full responsibility for all outcomes.
+> Kubernetes Goat is used for educational purposes only, do not test or apply these attacks on any systems without permission. Kubernetes Goat comes with absolutely no warranties, by using it you take full responsibility for all the outcomes.
 
 ## 📝 License
 
@@ -119,7 +118,7 @@ Here is the detailed step by step guide for learning and using Kubernetes Goat �
 
 ## ✨ Acknowledgements
 
-Thanks to to these wonderful people: 🎉
+Thanks go to these wonderful people 🎉
 
 <table>
     <tr>
