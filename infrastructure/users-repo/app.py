@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Author: Madhu Akula
-# This program has been created as part of Kubernetes Goat
+# This program has been created as part of Kuberentes Goat
 # User repositories information using API
 import requests
 import json
